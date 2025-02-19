@@ -1,2 +1,2 @@
 # loginProject
- PRojeto tela de login com media query e telas responsivas.
+ Projeto tela de login com media query e telas responsivas.

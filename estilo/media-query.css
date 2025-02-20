@@ -6,7 +6,8 @@
     }
 
     section#login {
-        width: 90vw;
+        width: 80vw;
+        height: 290px
     }
 
     section#login > div#imagem {
@@ -29,13 +30,14 @@
 
     section#login {
         width: 950px;
+        height: 340px;
     }
 
     section#login > div#imagem {
         float: right;
         width: 50%;
         height: 100%;
-        background: #3D3D3D url(../imagem/white.jpg) no-repeat top center/cover;
+        /* background: #3D3D3D url(../imagem/white.jpg) no-repeat top center/cover; */
         transform: scalex(-1);
     }
 
@@ -49,6 +51,7 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0;
     }
 }

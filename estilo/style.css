@@ -31,15 +31,15 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
-
+    
     background: white;
     width: 300px;
     height: 550px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #00000070;
-
+    
+    transform: translate(-50%, -50%);
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
 }
@@ -66,8 +66,9 @@ div#formulario > p {
 
 form > div.campo {
     background-color: #8a8a8a;
+    border: 2px solid #8a8a8a;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
@@ -75,12 +76,36 @@ div.campo > label {
     display: none;
 }
 
+div.campo > span {
+    color: white;
+    /* background-color: black; */
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #d4d4d47e;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px;
+    transform: translateY(-13px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+    border: none;
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
     width: 100%;
     height: 40px;
-    margin-top: 10px; /*! eu mudei isso solo, mas guanabara não */
+    margin-top: 10px;
     background-color: #616161;
     color: white;
     border: none;
